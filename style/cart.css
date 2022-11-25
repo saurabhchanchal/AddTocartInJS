@@ -19,3 +19,13 @@ img {
     height: 280px;
     width: 300px;
 }
+
+#checkout {
+    padding: 5px 10px;
+    background-color: lightslategray;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}

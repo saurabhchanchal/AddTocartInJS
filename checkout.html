@@ -7,12 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout</title>
   </head>
-
+ <style>
+  #order-message {
+    color: red;
+  }
+ </style>
   <body>
+    <h1>Checkout Page</h1>
     <div id="order-form">
       <!--Add your form html element here-->
       <!--In form, give #name,#number and #address as HTML id's to relevant input elements -->
+      
+        <input type="text" id="name" placeholder="name"> <br> <br>
+        <input type="number" id="number" placeholder="number"> <br> <br>
+        <input type="text" id="address" placeholder="Address"> <br> <br>
+        <button id="place-order">Place Order</button>
+      
+      <h4 id="order-message"></h4>
     </div>
   </body>
 
 </html>
+
+<script src="./scripts/checkout.js"></script>

@@ -50,3 +50,8 @@ function removeTask(index) {
     appendData();
 }
 
+
+document.getElementById("checkout").addEventListener("click", function () {
+    window.location.href = "checkout.html"
+})
+
