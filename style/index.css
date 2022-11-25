@@ -1,0 +1,41 @@
+
+
+body{
+      margin: 0px;
+    }
+
+    #navbar{
+      border:  1px solid red;
+      background-color: teal;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 10px;
+      color: white;
+    }
+    #navbar > div {
+      border: 1px solid blue;
+      margin: 20px;
+      cursor: pointer;
+    }
+    #menu {
+      border: 1px solid red;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+      
+    }
+    #menu > div {
+      padding: 10px;
+      border: 1px solid #cecece;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img{
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+    }

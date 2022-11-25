@@ -1,0 +1,21 @@
+
+
+#cart {
+     border: 1px solid red;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 20px;
+     width: 98%;
+}
+#cart > div {
+     border: 2px solid blue;
+     text-align: center;
+     font-weight: bold;
+     /* height: 100px;
+     width: 100px; */
+}
+
+img {
+    height: 280px;
+    width: 300px;
+}
